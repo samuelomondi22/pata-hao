@@ -5,9 +5,6 @@ import { withRoomConsumer } from "../context";
 import Loading from "./Loading";
 
 const RoomContainer = ({ context }) => {
-  //   return (
-  //     <RoomConsumer>
-  //       {value => {
   const { loading, sortedRooms, rooms } = context;
   if (loading) {
     return <Loading />;
@@ -18,9 +15,6 @@ const RoomContainer = ({ context }) => {
       <RoomsList rooms={sortedRooms} />
     </>
   );
-  //       }}
-  //     </RoomConsumer>
-  //   );
 };
 
 export default withRoomConsumer(RoomContainer);

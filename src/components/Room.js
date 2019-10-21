@@ -14,11 +14,10 @@ const Room = ({ room }) => {
           <h6>KES{price}</h6>
           <p>per month</p>
         </div>
-        <Link to={`/rooms/${slug}`} className="btn-primary room-link">
-          Features
-        </Link>
       </div>
-      <p className="room-info">{name}</p>
+      <p className="room-info">
+        <Link to={`/rooms/${slug}`}>{name}</Link>
+      </p>
     </article>
   );
 };

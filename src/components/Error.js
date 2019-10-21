@@ -6,8 +6,8 @@ import Banner from "./Banner";
 const Error = () => {
   return (
     <Hero>
-      <Banner title="404" subtitle="page aint here bro">
-        <Link to="/">
+      <Banner title="404" subtitle="page not available">
+        <Link to="/" style={{ color: "green" }}>
           Back to HomePage
         </Link>
       </Banner>

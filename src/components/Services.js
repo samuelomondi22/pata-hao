@@ -18,7 +18,7 @@ export default class Services extends Component {
         {
           icon: <IoIosBicycle />,
           title: "transportation",
-          info: `Wanna com home late and not hav trouble finding your way back? 
+          info: `Want to come home late and not hav trouble finding your way back? 
                     We have considered the transportation and prevent from the headache as the house are in easily accessible locations`
         },
         {
